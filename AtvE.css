@@ -1,0 +1,69 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+header {
+    text-align: center;
+    padding: 100px;
+    background: url('img/lingua.png') no-repeat center center/cover;
+}
+header h1{
+    font-family:monospace;
+    font-size: 30px;
+    color:#0e2f77;
+    margin-top: 20px;
+     margin-bottom: 5px;
+}
+
+header h2{
+    font-size: 150px;
+    margin-top: 0px;
+    font-family:'Source Code Pro';
+    color:#1c346d;
+}
+header p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#ffffff;
+    font-size: 20px;
+}
+#Atividades\ Desenvolvidas h2{
+margin-left: 20px;
+font-size: 30px;
+text-align: center;  
+}
+
+section ul {
+display: flex;
+gap:80px;
+padding: 0;
+list-style: none;
+
+}
+section li{
+    display: inline-block;
+    margin-right: 40px;
+}
+section li{
+ display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.4s ease-in-out; 
+    position: relative;
+    overflow: hidden;
+}
+section li:hover{
+transform: scale(1.1); 
+}
