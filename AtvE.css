@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a;
+    background-color: #000000;
     color: #ffffff;
 }
 
@@ -14,7 +14,7 @@ a{
 header {
     text-align: center;
     padding: 100px;
-    background: url('img/lingua.png') no-repeat center center/cover;
+    background: url('img/capae.png') no-repeat center center/cover;
 }
 header h1{
     font-family:monospace;
@@ -66,4 +66,55 @@ section li{
 }
 section li:hover{
 transform: scale(1.1); 
+}
+.slider-container {
+  position: relative;
+  max-width: 900px;
+  margin: 60px auto;
+  overflow: hidden;
+  min-height: 630px;
+  border-radius: 16px;
+}
+
+.slider-container {
+  max-width: 1100px;   /* deixa mais largo */
+  min-height: 700px;   /* deixa mais alto */
+}
+
+.slider {
+  display: flex;
+  transition: transform 1s ease; /* animação suave */
+  width: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  border-radius: 12px;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 16px 20px;
+  cursor: pointer;
+  font-size: 28px;
+  border-radius: 50%;
+  z-index: 10;
+  transition: 0.3s;
+}
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 20px;   /* botão da esquerda */
+}
+
+.next {
+  right: 20px;  /* botão da direita */
 }
