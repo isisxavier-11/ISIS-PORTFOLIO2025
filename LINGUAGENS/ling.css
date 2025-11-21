@@ -41,7 +41,7 @@ header {
 header h1 {
   font-family: monospace;
   font-size: 30px;
-  color: #0e2f77;
+  color: #085db8;
   margin-top: 20px;
   margin-bottom: 5px;
 }
@@ -50,7 +50,7 @@ header h2 {
   font-size: 150px;
   margin-top: 0;
   font-family: 'Source Code Pro';
-  color: #1c346d;
+  color: #085db8;
 }
 
 .slider-container {

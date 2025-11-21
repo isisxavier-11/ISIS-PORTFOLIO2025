@@ -83,7 +83,7 @@ transform: scale(1.1);
 
 .slider {
   display: flex;
-  transition: transform 1s ease; /* animação suave */
+  transition: transform 0.7s ease; /* animação suave */
   width: 100%;
 }
 
